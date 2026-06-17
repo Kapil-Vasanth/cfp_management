@@ -1,0 +1,21 @@
+{
+ "app": "cfp_management",
+ "bg_color": "gray",
+ "creation": "2026-06-16 08:45:12.941603",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "CFP Management",
+ "link_to": "CFP Management",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-06-16 09:14:57.760669",
+ "modified_by": "Administrator",
+ "name": "CFP Management",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "sidebar": "CFP Workspace Sidebar",
+ "standard": 1
+}

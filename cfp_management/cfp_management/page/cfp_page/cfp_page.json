@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2026-06-16 08:26:19.680065",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2026-06-16 08:56:53.338524",
+ "modified_by": "Administrator",
+ "module": "Cfp Management",
+ "name": "cfp-page",
+ "owner": "Administrator",
+ "page_name": "cfp-page",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "CFP Management"
+}

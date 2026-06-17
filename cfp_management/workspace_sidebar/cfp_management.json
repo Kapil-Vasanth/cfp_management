@@ -1,0 +1,26 @@
+{
+ "app": "cfp_management",
+ "creation": "2026-06-16 09:13:08.364870",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "idx": 0,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "CFP Client",
+   "link_to": "CFP Client",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-06-16 09:13:08.364870",
+ "modified_by": "Administrator",
+ "name": "CFP Management",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "CFP Management"
+}
