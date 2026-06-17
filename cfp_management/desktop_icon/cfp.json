@@ -10,11 +10,12 @@
  "label": "CFP",
  "link_to": "CFP",
  "link_type": "Workspace Sidebar",
- "modified": "2026-06-17 13:26:48.895895",
+ "modified": "2026-06-17 13:31:01.533010",
  "modified_by": "Administrator",
  "name": "CFP",
  "owner": "Administrator",
  "restrict_removal": 0,
  "roles": [],
+ "sidebar": "CFP",
  "standard": 1
 }
