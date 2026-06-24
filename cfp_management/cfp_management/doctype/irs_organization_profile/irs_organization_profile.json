@@ -1,0 +1,232 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "IRS-ORG-.#####",
+ "creation": "2026-06-23 07:06:22.337873",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ein",
+  "website",
+  "ruling_date",
+  "deductibility",
+  "income_amt",
+  "foundation",
+  "activity",
+  "organization_code",
+  "status",
+  "income_cd",
+  "pf_filing_req_cd",
+  "asset_amt",
+  "column_break_cexa",
+  "name_org",
+  "ico",
+  "street",
+  "city",
+  "county",
+  "state",
+  "zip",
+  "group",
+  "subsection",
+  "affiliation",
+  "classification",
+  "accounts_tab",
+  "tax_period",
+  "ntee_cd",
+  "filing_req_cd",
+  "acct_pd",
+  "asset_cd",
+  "revenue_amt"
+ ],
+ "fields": [
+  {
+   "fieldname": "ein",
+   "fieldtype": "Data",
+   "label": "EIN"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Small Text",
+   "label": "Website"
+  },
+  {
+   "fieldname": "name_org",
+   "fieldtype": "Data",
+   "label": "Organization Name"
+  },
+  {
+   "fieldname": "ico",
+   "fieldtype": "Data",
+   "label": "ICO"
+  },
+  {
+   "fieldname": "street",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Street"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "City"
+  },
+  {
+   "fieldname": "county",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "County"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "zip",
+   "fieldtype": "Data",
+   "label": "Zip"
+  },
+  {
+   "fieldname": "group",
+   "fieldtype": "Data",
+   "label": "Group"
+  },
+  {
+   "fieldname": "subsection",
+   "fieldtype": "Data",
+   "label": "Subsection"
+  },
+  {
+   "fieldname": "affiliation",
+   "fieldtype": "Data",
+   "label": "Affiliation"
+  },
+  {
+   "fieldname": "classification",
+   "fieldtype": "Data",
+   "label": "Classification"
+  },
+  {
+   "fieldname": "ruling_date",
+   "fieldtype": "Data",
+   "label": "Ruling Date"
+  },
+  {
+   "fieldname": "deductibility",
+   "fieldtype": "Data",
+   "label": "Deductibility"
+  },
+  {
+   "fieldname": "foundation",
+   "fieldtype": "Data",
+   "label": "Foundation"
+  },
+  {
+   "fieldname": "activity",
+   "fieldtype": "Data",
+   "label": "Activity"
+  },
+  {
+   "fieldname": "organization_code",
+   "fieldtype": "Data",
+   "label": "Organization Code"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "tax_period",
+   "fieldtype": "Data",
+   "label": "Tax Period"
+  },
+  {
+   "fieldname": "asset_cd",
+   "fieldtype": "Data",
+   "label": "Asset Code"
+  },
+  {
+   "fieldname": "income_cd",
+   "fieldtype": "Data",
+   "label": "Income Code"
+  },
+  {
+   "fieldname": "filing_req_cd",
+   "fieldtype": "Data",
+   "label": "Filing Requirement Code"
+  },
+  {
+   "fieldname": "pf_filing_req_cd",
+   "fieldtype": "Data",
+   "label": "Private Foundation Code"
+  },
+  {
+   "fieldname": "acct_pd",
+   "fieldtype": "Int",
+   "label": "Accounting Period"
+  },
+  {
+   "fieldname": "asset_amt",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Asset Amount"
+  },
+  {
+   "fieldname": "income_amt",
+   "fieldtype": "Currency",
+   "label": "Income Amount"
+  },
+  {
+   "fieldname": "revenue_amt",
+   "fieldtype": "Currency",
+   "label": "Revenue Amount"
+  },
+  {
+   "fieldname": "ntee_cd",
+   "fieldtype": "Data",
+   "label": "NTEE Code"
+  },
+  {
+   "fieldname": "column_break_cexa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "accounts_tab",
+   "fieldtype": "Tab Break",
+   "label": "Accounts"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-06-23 07:54:27.123062",
+ "modified_by": "Administrator",
+ "module": "Cfp Management",
+ "name": "IRS Organization Profile",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "name_org"
+}

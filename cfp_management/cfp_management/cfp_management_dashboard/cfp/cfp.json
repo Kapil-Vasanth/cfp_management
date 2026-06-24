@@ -1,0 +1,21 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "IRS Organization",
+   "width": "Half"
+  }
+ ],
+ "creation": "2026-06-16 07:47:31.010810",
+ "dashboard_name": "CFP",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2026-06-23 08:02:45.169040",
+ "modified_by": "Administrator",
+ "module": "Cfp Management",
+ "name": "CFP",
+ "owner": "Administrator"
+}
