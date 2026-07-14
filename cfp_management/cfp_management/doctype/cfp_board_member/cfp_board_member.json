@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "BM-.#####",
  "creation": "2026-07-14 00:36:35.765982",
@@ -63,7 +64,7 @@
  "image_field": "photo",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-14 00:42:53.777432",
+ "modified": "2026-07-14 03:00:05.425704",
  "modified_by": "Administrator",
  "module": "Cfp Management",
  "name": "CFP Board Member",

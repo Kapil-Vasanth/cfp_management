@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "CFP-HH-.#####",
  "creation": "2026-06-16 07:28:49.964514",
@@ -47,7 +48,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-09 03:31:49.327259",
+ "modified": "2026-07-14 03:02:13.399385",
  "modified_by": "Administrator",
  "module": "Cfp Management",
  "name": "CFP Household",

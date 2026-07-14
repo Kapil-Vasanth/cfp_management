@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "CFP-CN-.#####",
  "creation": "2026-06-16 07:55:49.270004",
@@ -61,7 +62,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-08 00:56:37.381625",
+ "modified": "2026-07-14 03:01:27.106515",
  "modified_by": "Administrator",
  "module": "Cfp Management",
  "name": "CFP Case Note",

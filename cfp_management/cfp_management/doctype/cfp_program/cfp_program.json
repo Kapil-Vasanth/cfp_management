@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "CFP-PROG-.#####",
  "creation": "2026-06-16 07:38:20.586055",
@@ -44,7 +45,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-08 00:57:05.031574",
+ "modified": "2026-07-14 03:01:49.176778",
  "modified_by": "Administrator",
  "module": "Cfp Management",
  "name": "CFP Program",
