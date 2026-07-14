@@ -1,10 +1,22 @@
 {
  "app": "cfp_management",
- "creation": "2026-06-16 09:25:45.644957",
+ "creation": "2026-07-13 09:28:14.069042",
  "docstatus": 0,
  "doctype": "Workspace Sidebar",
  "idx": 0,
  "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "list",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "CFP",
+   "link_to": "CFP",
+   "link_type": "Workspace",
+   "show_arrow": 0,
+   "type": "Link"
+  },
   {
    "child": 0,
    "collapsible": 1,
@@ -20,7 +32,7 @@
   {
    "child": 0,
    "collapsible": 1,
-   "icon": "list",
+   "icon": "users",
    "indent": 0,
    "keep_closed": 0,
    "label": "Client",
@@ -32,7 +44,19 @@
   {
    "child": 0,
    "collapsible": 1,
-   "icon": "list",
+   "icon": "user-star",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Volunteer",
+   "link_to": "CFP Volunteer",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "map-pin-house",
    "indent": 0,
    "keep_closed": 0,
    "label": "Household",
@@ -44,7 +68,7 @@
   {
    "child": 0,
    "collapsible": 1,
-   "icon": "list",
+   "icon": "folder-check",
    "indent": 0,
    "keep_closed": 0,
    "label": "Application",
@@ -56,7 +80,7 @@
   {
    "child": 0,
    "collapsible": 1,
-   "icon": "list",
+   "icon": "folder-closed",
    "indent": 0,
    "keep_closed": 0,
    "label": "Program",
@@ -68,7 +92,7 @@
   {
    "child": 0,
    "collapsible": 1,
-   "icon": "list",
+   "icon": "briefcase-business",
    "indent": 0,
    "keep_closed": 0,
    "label": "Case Note",
@@ -80,7 +104,7 @@
   {
    "child": 0,
    "collapsible": 1,
-   "icon": "list",
+   "icon": "dock",
    "indent": 0,
    "keep_closed": 0,
    "label": "Document",
@@ -92,17 +116,17 @@
   {
    "child": 0,
    "collapsible": 1,
-   "icon": "list",
+   "icon": "organization",
    "indent": 0,
    "keep_closed": 0,
-   "label": "IRS Organization",
+   "label": "IRS Organisation",
    "link_to": "IRS Organization Profile",
    "link_type": "DocType",
    "show_arrow": 0,
    "type": "Link"
   }
  ],
- "modified": "2026-07-13 08:19:06.363839",
+ "modified": "2026-07-14 02:46:09.976296",
  "modified_by": "Administrator",
  "module": "Cfp Management",
  "name": "CFP",
