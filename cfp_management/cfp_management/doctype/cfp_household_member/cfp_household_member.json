@@ -22,11 +22,13 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Full Name"
   },
   {
    "fieldname": "relationship",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Relationship",
    "options": "Head\nSpouse\nChild\nOther"
   },
@@ -38,6 +40,7 @@
   {
    "fieldname": "income",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Income"
   }
  ],
@@ -45,7 +48,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-06-16 07:34:35.867947",
+ "modified": "2026-07-08 00:07:06.048596",
  "modified_by": "Administrator",
  "module": "Cfp Management",
  "name": "CFP Household Member",

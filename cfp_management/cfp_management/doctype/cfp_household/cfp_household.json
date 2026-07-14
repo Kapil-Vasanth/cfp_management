@@ -16,12 +16,14 @@
   {
    "fieldname": "address",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Address",
    "options": "Address"
   },
   {
    "fieldname": "total_monthly_income",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Total Monthly Income"
   },
   {
@@ -45,7 +47,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-16 07:54:00.678113",
+ "modified": "2026-07-09 03:31:49.327259",
  "modified_by": "Administrator",
  "module": "Cfp Management",
  "name": "CFP Household",

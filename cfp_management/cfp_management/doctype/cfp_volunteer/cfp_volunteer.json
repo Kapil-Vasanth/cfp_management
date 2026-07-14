@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "VOL-.#####",
+ "creation": "2026-07-13 09:58:41.787158",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "volunteer_name",
+  "phone",
+  "email",
+  "column_break_eeml",
+  "status",
+  "total_hours",
+  "section_break_iehe",
+  "volunteer_programs"
+ ],
+ "fields": [
+  {
+   "fieldname": "volunteer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Volunteer Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Phone"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Active\nInactive"
+  },
+  {
+   "fieldname": "total_hours",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total Hours"
+  },
+  {
+   "fieldname": "column_break_eeml",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_iehe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "volunteer_programs",
+   "fieldtype": "Table",
+   "label": "Volunteer Programs",
+   "options": "CFP Volunteer Assignment"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-07-14 00:11:42.185435",
+ "modified_by": "Administrator",
+ "module": "Cfp Management",
+ "name": "CFP Volunteer",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "volunteer_name"
+}

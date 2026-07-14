@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-07-14 00:29:36.404342",
+ "default_view": "Tree",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_kapt",
+  "lft",
+  "rgt",
+  "is_group",
+  "old_parent",
+  "parent_cfp_organization_position",
+  "position_name",
+  "person_name",
+  "department",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_kapt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "lft",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Left",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "rgt",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Right",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_group",
+   "fieldtype": "Check",
+   "label": "Is Group"
+  },
+  {
+   "fieldname": "old_parent",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Old Parent",
+   "options": "CFP Organization Position"
+  },
+  {
+   "fieldname": "parent_cfp_organization_position",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "in_list_view": 1,
+   "label": "Parent CFP Organization Position",
+   "options": "CFP Organization Position"
+  },
+  {
+   "fieldname": "position_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Position Name"
+  },
+  {
+   "fieldname": "person_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Person Name",
+   "options": "CFP Board Member"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Department"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Status"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_tree": 1,
+ "links": [],
+ "modified": "2026-07-14 01:17:31.560779",
+ "modified_by": "Administrator",
+ "module": "Cfp Management",
+ "name": "CFP Organization Position",
+ "nsm_parent_field": "parent_cfp_organization_position",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "position_name"
+}

@@ -21,6 +21,7 @@
   {
    "fieldname": "description",
    "fieldtype": "Text Editor",
+   "in_list_view": 1,
    "label": "Description"
   },
   {
@@ -36,13 +37,14 @@
   {
    "fieldname": "eligibility_criteria",
    "fieldtype": "Text Editor",
+   "in_list_view": 1,
    "label": "Eligibility Criteria"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-16 07:52:46.886620",
+ "modified": "2026-07-08 00:57:05.031574",
  "modified_by": "Administrator",
  "module": "Cfp Management",
  "name": "CFP Program",
@@ -64,7 +66,9 @@
  ],
  "row_format": "Dynamic",
  "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "program_name"
 }

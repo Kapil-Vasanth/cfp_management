@@ -18,17 +18,20 @@
   {
    "fieldname": "client",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Client",
    "options": "CFP Client"
   },
   {
    "fieldname": "date",
    "fieldtype": "Date",
+   "in_list_view": 1,
    "label": "Date"
   },
   {
    "fieldname": "note",
    "fieldtype": "Text Editor",
+   "in_list_view": 1,
    "label": "Note"
   },
   {
@@ -38,12 +41,14 @@
   {
    "fieldname": "staff",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Staff",
    "options": "User"
   },
   {
    "fieldname": "follow_up_date",
    "fieldtype": "Date",
+   "in_list_view": 1,
    "label": "Follow Up Date"
   },
   {
@@ -56,7 +61,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-16 07:58:09.467250",
+ "modified": "2026-07-08 00:56:37.381625",
  "modified_by": "Administrator",
  "module": "Cfp Management",
  "name": "CFP Case Note",

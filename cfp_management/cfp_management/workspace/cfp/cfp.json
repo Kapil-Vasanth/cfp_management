@@ -1,29 +1,82 @@
 {
  "app": "cfp_management",
- "charts": [],
- "content": "[]",
- "creation": "2026-06-16 09:25:45.612124",
+ "charts": [
+  {
+   "chart_name": "IRS Organization",
+   "label": "IRS Organization"
+  },
+  {
+   "chart_name": "Completed Projects",
+   "label": "Completed Projectes"
+  }
+ ],
+ "content": "[{\"id\":\"VZ0goLZGmx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CFP Employees\",\"col\":3}},{\"id\":\"WrWV27_1Nu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tasks\",\"col\":3}},{\"id\":\"tE9FVt5muv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Application\",\"col\":3}},{\"id\":\"dXqbDgRthz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Program\",\"col\":3}},{\"id\":\"ZEk79MnaiV\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"DMiRfeIdQZ\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Volunteer\",\"col\":4}},{\"id\":\"5ekC8FyeGR\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Board Members\",\"col\":4}},{\"id\":\"HHqraYA2mv\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"G7R8VNA3tV\",\"type\":\"chart\",\"data\":{\"chart_name\":\"IRS Organization\",\"col\":6}},{\"id\":\"axMovgNY2M\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Completed Projectes\",\"col\":6}}]",
+ "creation": "2026-07-13 09:28:14.057404",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "hide_custom": 0,
- "idx": 0,
+ "idx": 1,
  "indicator_color": "green",
  "is_hidden": 0,
  "label": "CFP",
  "link_type": "DocType",
  "links": [],
- "modified": "2026-06-17 13:31:56.106828",
+ "modified": "2026-07-14 01:12:09.907315",
  "modified_by": "Administrator",
  "module": "Cfp Management",
  "name": "CFP",
  "number_cards": [],
  "owner": "Administrator",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "CFP Board Member",
+   "label": "Board Members",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "CFP Volunteer",
+   "label": "Volunteer",
+   "quick_list_filter": "[]"
+  }
+ ],
  "roles": [],
  "sequence_id": 0.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "CFP Employees",
+   "link_to": "Employee",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Tasks",
+   "link_to": "Task",
+   "stats_filter": "[[\"Task\",\"priority\",\"=\",\"Low\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Program",
+   "link_to": "CFP Program",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Application",
+   "link_to": "CFP Application",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "CFP",
  "type": "Workspace"
 }

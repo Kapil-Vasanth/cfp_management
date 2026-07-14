@@ -20,18 +20,21 @@
   {
    "fieldname": "client",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Client",
    "options": "CFP Client"
   },
   {
    "fieldname": "household",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Household",
    "options": "CFP Household"
   },
   {
    "fieldname": "program",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Program",
    "options": "CFP Program"
   },
@@ -43,6 +46,7 @@
   {
    "fieldname": "status",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Status",
    "options": "New\nUnder Review\nApproved\nRejected\nCompleted"
   },
@@ -53,6 +57,7 @@
   {
    "fieldname": "assigned_staff",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Assigned Staff",
    "options": "User"
   },
@@ -70,7 +75,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-16 07:46:08.585444",
+ "modified": "2026-07-08 00:13:24.805825",
  "modified_by": "Administrator",
  "module": "Cfp Management",
  "name": "CFP Application",
